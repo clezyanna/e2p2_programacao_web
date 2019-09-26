@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Sistema para Solicitação de Livros-SiSoLi</title>
+		
+		<link rel="stylesheet" type="text/css" href="formulario.css">
+		<!--<link rel="stylesheet" type="text/css" href="css/index.css">-->
+		<link rel="stylesheet" type="text/css" href="css/materialize.css">
+
+	</head>
+	<body>
+
+	<nav class="navbar">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Sistema para Solicitação de Livros-SiSoLi</a>
+        </div>
+    </nav>
+
+    <main>
+    	<section class="container ">
+				<h2>Biblioteca</h2>
+				<div class ="container">
+				<table class="highlight"><!--quando passar o mouse tem um efeito-->
+					<thead>
+						<tr>
+							<th>Tipo de vínculo</th>
+							<th>Edição</th>
+							<th>Autor</th>
+							<th>Título</th>
+							<th>Ano de publicação</th>
+						</tr>
+					</thead>
+					<tbody id="tabela-livros" >
+						<tr class="livro" id="livros-livro">
+							<td class="info-tipo de vinculo"></td>
+							<td class="info-edição"></td>
+							<td class="info-Ano de publicação"></td>
+							<td class="info-autor"></td>
+							<td class="info-título"></td>
+						</tr>
+
+						<tr class="livro" >
+							<td class="info-tipo de vinculo"></td>
+							<td class="info-edição"></td>
+							<td class="info-Ano de publicação"></td>
+							<td class="info-autor"></td>
+							<td class="info-título"></td>
+						</tr>
+
+						<tr class="livro" >
+							<td class="info-tipo de vinculo"></td>
+							<td class="info-edição"></td>
+							<td class="info-Ano de publicação"></td>
+							<td class="info-autor"></td>
+							<td class="info-título"></td>
+						</tr>
+
+						<tr class="livro" >
+							<td class="info-tipo de vinculo"></td>
+							<td class="info-edição"></td>
+							<td class="info-Ano de publicação"></td>
+							<td class="info-autor"></td>
+							<td class="info-título"></td>
+						</tr>
+
+						<tr class="livro" >
+							<td class="info-tipo de vinculo"></td>
+							<td class="info-edição"></td>
+							<td class="info-Ano de publicação"></td>
+							<td class="info-autor"></td>
+							<td class="info-título"></td>
+						</tr>
+						
+					</tbody>
+				</table>
+			</div>
+				<div class ="container">
+
+				<section class="container">
+		    <h3 id="titulo-form">Adicionar livros</h3>
+		    <form id="form-adiciona">
+		        <div class="grupo">
+		            <label for="vínculo">Tipo de vínculo:</label>
+		            <input id="matricula" name="matricula" type="text" placeholder="você é docente, discente ou Técnico" class="campo">
+		        </div>
+		        <div class="grupo">
+		            <label for="matricula">Ediçaõ:</label>
+		            <input id="matricula" name="matricula" type="text" placeholder="digite sua matricula" class="campo campo-medio">
+		        </div>
+		        <div class="grupo">
+		            <label for="autor">Autor:</label>
+		            <input id="gordura" type="text" placeholder="digite o autor da obra" class="campo campo-medio">
+		        </div>
+		        <div class="grupo">
+		            <label for="título">Título:</label>
+		            <input id="título" type="text" placeholder="digite o título da obra" class="campo campo-medio">
+		        </div>
+		        <div class="grupo">
+		            <label for="matricula">Ano de publicação:</label>
+		            <input id="matricula" name="matricula" type="text" placeholder="digite o ano da publicação" class="campo campo-medio">
+		        </div>
+
+
+		        <!--<a id="adicionar-paciente" class="botao bto-principal"></a>
+		        <button id="adicionar-paciente" class="botao bto-principal">Adicionar</button>-->
+		      	<center>
+		      		<div class="botao">
+		        <a class="waves-effect waves-light btn" id="adicionar-livros" class="botao bto-principal">Solicitar livro</a>
+		    		</div>
+		        </center>
+		    </form>
+		</section>
+		</div>
+
+		<!--<script src="js/ano.js" ></script>-->
+		<script type="js/formulario.js"></script>
+    	
+    </main>
+</body>
+    </html>
